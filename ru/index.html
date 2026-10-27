@@ -71,19 +71,19 @@
 <body>
   <div class="bg-glow" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+    <a class="brand" href="/ru/" data-view="home">
       <span class="brand-mark" aria-hidden="true">✦</span>
       <div>
         <div class="brand-title">Hogwords</div>
         <div class="brand-sub" data-i18n="brand.sub">Английская лексика в духе Хогвартса</div>
       </div>
-    </div>
+    </a>
     <nav class="nav" data-i18n-aria="nav.aria" aria-label="Главное меню">
-      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">Главная</button>
-      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">Словарь</button>
-      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">Карточки</button>
-      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">Тест</button>
-      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">Скачать</button>
+      <a class="nav-btn active" href="/ru/" data-view="home" data-i18n="nav.home">Главная</a>
+      <a class="nav-btn" href="/ru/browse/" data-view="browse" data-i18n="nav.browse">Словарь</a>
+      <a class="nav-btn" href="/ru/flash/" data-view="flash" data-i18n="nav.flash">Карточки</a>
+      <a class="nav-btn" href="/ru/quiz/" data-view="quiz" data-i18n="nav.quiz">Тест</a>
+      <a class="nav-btn" href="/ru/download/" data-view="download" data-i18n="nav.download">Скачать</a>
     </nav>
     <div id="lang-switcher" class="lang-switcher"></div>
   </header>

@@ -71,19 +71,19 @@
 <body>
   <div class="bg-glow" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+    <a class="brand" href="/de/" data-view="home">
       <span class="brand-mark" aria-hidden="true">✦</span>
       <div>
         <div class="brand-title">Hogwords</div>
         <div class="brand-sub" data-i18n="brand.sub">Hogwarts-inspirierter Englischwortschatz</div>
       </div>
-    </div>
+    </a>
     <nav class="nav" data-i18n-aria="nav.aria" aria-label="Hauptnavigation">
-      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">Start</button>
-      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">Durchsuchen</button>
-      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">Karten</button>
-      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">Quiz</button>
-      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">Download</button>
+      <a class="nav-btn active" href="/de/" data-view="home" data-i18n="nav.home">Start</a>
+      <a class="nav-btn" href="/de/browse/" data-view="browse" data-i18n="nav.browse">Durchsuchen</a>
+      <a class="nav-btn" href="/de/flash/" data-view="flash" data-i18n="nav.flash">Karten</a>
+      <a class="nav-btn" href="/de/quiz/" data-view="quiz" data-i18n="nav.quiz">Quiz</a>
+      <a class="nav-btn" href="/de/download/" data-view="download" data-i18n="nav.download">Download</a>
     </nav>
     <div id="lang-switcher" class="lang-switcher"></div>
   </header>

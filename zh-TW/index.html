@@ -71,19 +71,19 @@
 <body>
   <div class="bg-glow" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+    <a class="brand" href="/zh-TW/" data-view="home">
       <span class="brand-mark" aria-hidden="true">✦</span>
       <div>
         <div class="brand-title">Hogwords</div>
         <div class="brand-sub" data-i18n="brand.sub">霍格華茲風格英語詞彙</div>
       </div>
-    </div>
+    </a>
     <nav class="nav" data-i18n-aria="nav.aria" aria-label="主導覽">
-      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">首頁</button>
-      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">詞庫</button>
-      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">閃卡</button>
-      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">測驗</button>
-      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">下載</button>
+      <a class="nav-btn active" href="/zh-TW/" data-view="home" data-i18n="nav.home">首頁</a>
+      <a class="nav-btn" href="/zh-TW/browse/" data-view="browse" data-i18n="nav.browse">詞庫</a>
+      <a class="nav-btn" href="/zh-TW/flash/" data-view="flash" data-i18n="nav.flash">閃卡</a>
+      <a class="nav-btn" href="/zh-TW/quiz/" data-view="quiz" data-i18n="nav.quiz">測驗</a>
+      <a class="nav-btn" href="/zh-TW/download/" data-view="download" data-i18n="nav.download">下載</a>
     </nav>
     <div id="lang-switcher" class="lang-switcher"></div>
   </header>

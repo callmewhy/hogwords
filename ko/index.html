@@ -71,19 +71,19 @@
 <body>
   <div class="bg-glow" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+    <a class="brand" href="/ko/" data-view="home">
       <span class="brand-mark" aria-hidden="true">✦</span>
       <div>
         <div class="brand-title">Hogwords</div>
         <div class="brand-sub" data-i18n="brand.sub">호그와트 감성 영어 어휘</div>
       </div>
-    </div>
+    </a>
     <nav class="nav" data-i18n-aria="nav.aria" aria-label="주 메뉴">
-      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">홈</button>
-      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">어휘</button>
-      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">카드</button>
-      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">퀴즈</button>
-      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">다운로드</button>
+      <a class="nav-btn active" href="/ko/" data-view="home" data-i18n="nav.home">홈</a>
+      <a class="nav-btn" href="/ko/browse/" data-view="browse" data-i18n="nav.browse">어휘</a>
+      <a class="nav-btn" href="/ko/flash/" data-view="flash" data-i18n="nav.flash">카드</a>
+      <a class="nav-btn" href="/ko/quiz/" data-view="quiz" data-i18n="nav.quiz">퀴즈</a>
+      <a class="nav-btn" href="/ko/download/" data-view="download" data-i18n="nav.download">다운로드</a>
     </nav>
     <div id="lang-switcher" class="lang-switcher"></div>
   </header>

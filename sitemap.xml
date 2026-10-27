@@ -17,6 +17,70 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://hogwords.pages.dev/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://hogwords.pages.dev/en/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
@@ -31,6 +95,70 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/en/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/en/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/en/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/en/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hogwords.pages.dev/zh-CN/</loc>
@@ -49,6 +177,70 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hogwords.pages.dev/zh-CN/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/zh-CN/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/zh-CN/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/zh-CN/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hogwords.pages.dev/zh-TW/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
@@ -63,6 +255,70 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/zh-TW/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/zh-TW/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/zh-TW/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/zh-TW/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hogwords.pages.dev/ja/</loc>
@@ -81,6 +337,70 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hogwords.pages.dev/ja/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ja/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ja/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ja/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hogwords.pages.dev/ko/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
@@ -95,6 +415,70 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ko/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ko/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ko/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ko/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hogwords.pages.dev/es/</loc>
@@ -113,6 +497,70 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hogwords.pages.dev/es/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/es/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/es/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/es/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hogwords.pages.dev/fr/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
@@ -127,6 +575,70 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/fr/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/fr/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/fr/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/fr/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hogwords.pages.dev/de/</loc>
@@ -145,6 +657,70 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hogwords.pages.dev/de/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/de/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/de/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/de/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hogwords.pages.dev/pt/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
@@ -161,6 +737,70 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hogwords.pages.dev/pt/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/pt/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/pt/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/pt/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hogwords.pages.dev/ru/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
@@ -175,5 +815,69 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ru/browse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/browse/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/browse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/browse/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/browse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/browse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/browse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/browse/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/browse/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/browse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/browse/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ru/flash/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/flash/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/flash/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/flash/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/flash/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/flash/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/flash/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/flash/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/flash/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/flash/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/flash/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ru/quiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/quiz/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/quiz/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/quiz/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/quiz/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/quiz/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/quiz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/quiz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/quiz/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hogwords.pages.dev/ru/download/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/download/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/download/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/download/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/download/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/download/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/download/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/download/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/download/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/download/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/download/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

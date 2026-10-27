@@ -71,19 +71,19 @@
 <body>
   <div class="bg-glow" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+    <a class="brand" href="/ja/" data-view="home">
       <span class="brand-mark" aria-hidden="true">✦</span>
       <div>
         <div class="brand-title">Hogwords</div>
         <div class="brand-sub" data-i18n="brand.sub">ホグワーツ風の英語語彙</div>
       </div>
-    </div>
+    </a>
     <nav class="nav" data-i18n-aria="nav.aria" aria-label="メイン">
-      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">ホーム</button>
-      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">語彙</button>
-      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">カード</button>
-      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">クイズ</button>
-      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">ダウンロード</button>
+      <a class="nav-btn active" href="/ja/" data-view="home" data-i18n="nav.home">ホーム</a>
+      <a class="nav-btn" href="/ja/browse/" data-view="browse" data-i18n="nav.browse">語彙</a>
+      <a class="nav-btn" href="/ja/flash/" data-view="flash" data-i18n="nav.flash">カード</a>
+      <a class="nav-btn" href="/ja/quiz/" data-view="quiz" data-i18n="nav.quiz">クイズ</a>
+      <a class="nav-btn" href="/ja/download/" data-view="download" data-i18n="nav.download">ダウンロード</a>
     </nav>
     <div id="lang-switcher" class="lang-switcher"></div>
   </header>

@@ -44,6 +44,8 @@ const App = (() => {
     bindDownload();
     renderBrowse();
     resetFlash();
+    const initial = parseRoute(location.pathname).view;
+    showView(initial, { push: false });
   }
 
   function buildFlat() {
@@ -60,18 +62,74 @@ const App = (() => {
     }
   }
 
+  const VIEW_NAMES = ["home", "browse", "flash", "quiz", "download"];
+
+  function parseRoute(pathname) {
+    if (window.I18N && typeof I18N.parseRoute === "function") {
+      return I18N.parseRoute(pathname);
+    }
+    const parts = (pathname || "/").split("/").filter(Boolean);
+    const locales = new Set(["en", "zh-CN", "zh-TW", "ja", "ko", "es", "fr", "de", "pt", "ru"]);
+    let locale = null;
+    let rest = parts;
+    if (parts.length && locales.has(parts[0])) {
+      locale = parts[0];
+      rest = parts.slice(1);
+    }
+    let view = "home";
+    if (rest[0] && VIEW_NAMES.includes(rest[0])) view = rest[0];
+    return { locale, view };
+  }
+
+  function pathForView(name, locale) {
+    if (window.I18N && typeof I18N.pathForView === "function") {
+      return I18N.pathForView(name, locale);
+    }
+    const view = VIEW_NAMES.includes(name) ? name : "home";
+    const slug = view === "home" ? "" : view;
+    const tail = slug ? `${slug}/` : "";
+    const fromPath = parseRoute(location.pathname).locale;
+    if (fromPath && fromPath !== "en") {
+      return slug ? `/${fromPath}/${tail}` : `/${fromPath}/`;
+    }
+    if (fromPath === "en") {
+      return slug ? `/en/${tail}` : "/en/";
+    }
+    return slug ? `/${tail}` : "/";
+  }
+
   function bindNav() {
-    $$(".nav-btn").forEach((btn) => {
-      btn.addEventListener("click", () => showView(btn.dataset.view));
+    $$(".nav-btn, a.brand").forEach((el) => {
+      el.addEventListener("click", (e) => {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+        const name = el.dataset.view || "home";
+        if (!VIEW_NAMES.includes(name)) return;
+        e.preventDefault();
+        showView(name, { push: true });
+      });
+    });
+    window.addEventListener("popstate", () => {
+      const { view } = parseRoute(location.pathname);
+      showView(view, { push: false });
     });
   }
 
-  function showView(name) {
+  function showView(name, opts) {
+    const options = opts || {};
+    const push = options.push !== false;
+    if (!VIEW_NAMES.includes(name)) name = "home";
     $$(".view").forEach((v) => v.classList.remove("active"));
     $$(".nav-btn").forEach((b) => b.classList.toggle("active", b.dataset.view === name));
     const el = document.getElementById(`view-${name}`);
     if (el) el.classList.add("active");
     if (name === "flash" && flash.deck.length === 0) resetFlash();
+
+    const nextPath = pathForView(name);
+    if (push && location.pathname !== nextPath) {
+      try {
+        history.pushState({ view: name }, "", nextPath);
+      } catch (_) {}
+    }
   }
 
   function renderHome() {
@@ -79,13 +137,15 @@ const App = (() => {
     $("#stat-total").textContent = data.stats.totalWordOccurrences.toLocaleString();
     $("#stat-unique").textContent = data.stats.uniqueWords.toLocaleString();
     const grid = $("#book-grid");
+    const lang = window.I18N ? I18N.getLang() : "en";
+    const showZh = lang === "zh-CN" || lang === "zh-TW";
     grid.innerHTML = data.books
       .map(
         (b) => `
       <button type="button" class="book-card" data-book="${b.id}">
         <div class="book-num">${escapeHtml(t("book.n", { n: b.id }))}</div>
         <h3>${escapeHtml(b.titleEn)}</h3>
-        <p class="book-zh">${escapeHtml(b.titleZh)}</p>
+        ${showZh ? `<p class="book-zh">${escapeHtml(b.titleZh)}</p>` : ""}
         <div class="book-count">${escapeHtml(t("home.bookWords", { n: b.wordCount.toLocaleString() }))}</div>
       </button>`
       )
@@ -97,15 +157,15 @@ const App = (() => {
         browseState.letter = "";
         $("#filter-book").value = browseState.book;
         clearAzActive();
-        showView("browse");
+        showView("browse", { push: true });
         renderBrowse();
       });
     });
   }
 
-  function bookOptionLabel(b, preferZh) {
+  function bookOptionLabel(b) {
     const lang = window.I18N ? I18N.getLang() : "en";
-    const useZh = preferZh || lang === "zh-CN" || lang === "zh-TW";
+    const useZh = lang === "zh-CN" || lang === "zh-TW";
     const title = useZh ? b.titleZh : b.titleEn;
     return `Book ${b.id} · ${title}`;
   }
@@ -117,16 +177,16 @@ const App = (() => {
       data.books
         .map(
           (b) =>
-            `<option value="${b.id}">${escapeHtml(bookOptionLabel(b, true))} (${b.wordCount})</option>`
+            `<option value="${b.id}">${escapeHtml(bookOptionLabel(b))} (${b.wordCount})</option>`
         )
         .join("");
     const practiceOpts =
       `<option value="all">${escapeHtml(allLabel)}</option>` +
       data.books
-        .map((b) => `<option value="${b.id}">${escapeHtml(bookOptionLabel(b, false))} (${b.wordCount})</option>`)
+        .map((b) => `<option value="${b.id}">${escapeHtml(bookOptionLabel(b))} (${b.wordCount})</option>`)
         .join("");
     const dlOpts = data.books
-      .map((b) => `<option value="${b.id}">${escapeHtml(bookOptionLabel(b, false))}</option>`)
+      .map((b) => `<option value="${b.id}">${escapeHtml(bookOptionLabel(b))}</option>`)
       .join("");
 
     const keep = {
@@ -342,7 +402,13 @@ const App = (() => {
     }
     $("#flash-word").textContent = cur.word;
     $("#flash-word-back").textContent = cur.word;
-    $("#flash-book-tag").textContent = `Book ${cur.bookId} · ${cur.bookEn} · ${cur.bookZh}`;
+    {
+      const flang = window.I18N ? I18N.getLang() : "en";
+      const fZh = flang === "zh-CN" || flang === "zh-TW";
+      $("#flash-book-tag").textContent = fZh
+        ? `Book ${cur.bookId} · ${cur.bookEn} · ${cur.bookZh}`
+        : `Book ${cur.bookId} · ${cur.bookEn}`;
+    }
     if (flash.revealed) {
       front.classList.add("hidden");
       back.classList.remove("hidden");

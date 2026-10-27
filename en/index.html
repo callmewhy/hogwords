@@ -71,19 +71,19 @@
 <body>
   <div class="bg-glow" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+    <a class="brand" href="/en/" data-view="home">
       <span class="brand-mark" aria-hidden="true">✦</span>
       <div>
         <div class="brand-title">Hogwords</div>
         <div class="brand-sub" data-i18n="brand.sub">Hogwarts-inspired English vocabulary</div>
       </div>
-    </div>
+    </a>
     <nav class="nav" data-i18n-aria="nav.aria" aria-label="Main">
-      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">Home</button>
-      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">Browse</button>
-      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">Flashcards</button>
-      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">Quiz</button>
-      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">Download</button>
+      <a class="nav-btn active" href="/en/" data-view="home" data-i18n="nav.home">Home</a>
+      <a class="nav-btn" href="/en/browse/" data-view="browse" data-i18n="nav.browse">Browse</a>
+      <a class="nav-btn" href="/en/flash/" data-view="flash" data-i18n="nav.flash">Flashcards</a>
+      <a class="nav-btn" href="/en/quiz/" data-view="quiz" data-i18n="nav.quiz">Quiz</a>
+      <a class="nav-btn" href="/en/download/" data-view="download" data-i18n="nav.download">Download</a>
     </nav>
     <div id="lang-switcher" class="lang-switcher"></div>
   </header>

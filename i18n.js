@@ -911,22 +911,79 @@ const I18N = (() => {
   }
 
 
-  function pathLocale() {
-    const seg = (location.pathname || "/").split("/").filter(Boolean)[0];
-    if (!seg) return null;
-    if (dict[seg]) return seg;
-    return normalize(seg);
+  const VIEW_SLUGS = ["home", "browse", "flash", "quiz", "download"];
+
+  function parseRoute(pathname) {
+    const parts = (pathname || "/").split("/").filter(Boolean);
+    let locale = null;
+    let idx = 0;
+    if (parts.length) {
+      const first = parts[0];
+      if (dict[first]) {
+        locale = first;
+        idx = 1;
+      } else {
+        const norm = normalize(first);
+        // Only treat as locale if it looks like a locale code, not a view slug
+        if (norm && !VIEW_SLUGS.includes(first)) {
+          locale = norm;
+          idx = 1;
+        }
+      }
+    }
+    let view = "home";
+    if (parts[idx] && VIEW_SLUGS.includes(parts[idx])) {
+      view = parts[idx];
+    }
+    return { locale, view };
   }
 
-  function pathForLang(code) {
-    return "/" + code + "/";
+  function pathLocale() {
+    return parseRoute(location.pathname).locale;
+  }
+
+  function pathForView(view, localeCode) {
+    const route = parseRoute(location.pathname);
+    const loc = localeCode === undefined ? (route.locale || lang || "en") : localeCode;
+    const v = VIEW_SLUGS.includes(view) ? view : "home";
+    const slug = v === "home" ? "" : v;
+    // Non-home views use a trailing slash so CF directory indexes match pushState URLs.
+    const tail = slug ? slug + "/" : "";
+    // Keep /en/ prefix if the user is already on an /en/… URL; otherwise English uses root paths.
+    if (loc === "en") {
+      if (route.locale === "en" || localeCode === "en") {
+        // Explicit en locale path (from /en/ pages or switching TO en while wanting /en/)
+        // When switching language TO en from another locale, prefer root English URLs.
+        if (localeCode === "en" && route.locale && route.locale !== "en") {
+          return slug ? "/" + tail : "/";
+        }
+        if (route.locale === "en") {
+          return slug ? "/en/" + tail : "/en/";
+        }
+      }
+      return slug ? "/" + tail : "/";
+    }
+    return slug ? "/" + loc + "/" + tail : "/" + loc + "/";
+  }
+
+  function pathForLang(code, view) {
+    const v = view || parseRoute(location.pathname).view || "home";
+    // Switching language: English goes to root paths; other locales keep /{code}/…
+    if (code === "en") {
+      const slug = v === "home" ? "" : v;
+      return slug ? "/" + slug + "/" : "/";
+    }
+    return pathForView(v, code);
   }
 
   function detect() {
-    const fromPath = pathLocale();
-    if (fromPath) return fromPath;
-    // Root "/" is the English canonical entry for SEO
-    if (!location.pathname || location.pathname === "/") return "en";
+    const route = parseRoute(location.pathname);
+    // Path locale always wins (including /en/…)
+    if (route.locale) return route.locale;
+    // Root "/" and English view paths (/browse, /flash, …) are English — ignore localStorage
+    const parts = (location.pathname || "/").split("/").filter(Boolean);
+    if (!parts.length || VIEW_SLUGS.includes(parts[0])) return "en";
+    // Unknown path: fall back to saved / browser (should be rare)
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved && dict[saved]) return saved;
@@ -951,14 +1008,15 @@ const I18N = (() => {
     const navigate = options.navigate !== false;
     if (!dict[next]) next = "en";
 
-    const currentPathLang = pathLocale() || ((location.pathname === "/" || location.pathname === "") ? "en" : null);
+    const route = parseRoute(location.pathname);
+    const currentPathLang = route.locale || (route.view ? "en" : null) || ((location.pathname === "/" || location.pathname === "") ? "en" : null);
 
-    // Language switcher: move to the matching locale URL
+    // Language switcher: move to the matching locale URL, preserving view slug
     if (navigate && currentPathLang && currentPathLang !== next) {
       try {
         localStorage.setItem(STORAGE_KEY, next);
       } catch (_) {}
-      location.assign(pathForLang(next));
+      location.assign(pathForLang(next, route.view || "home"));
       return;
     }
 
@@ -1013,7 +1071,13 @@ const I18N = (() => {
     const span = document.createElement("span");
     span.className = "lang-icon";
     span.setAttribute("aria-hidden", "true");
-    span.textContent = "🌐";
+    span.innerHTML =
+      '<svg class="lang-globe" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+      '<circle cx="12" cy="12" r="9"></circle>' +
+      '<path d="M3 12h18"></path>' +
+      '<path d="M12 3a14 14 0 0 1 0 18"></path>' +
+      '<path d="M12 3a14 14 0 0 0 0 18"></path>' +
+      "</svg>";
     const select = document.createElement("select");
     select.id = "lang-select";
     select.setAttribute("aria-label", t("lang.aria"));
@@ -1039,11 +1103,16 @@ const I18N = (() => {
 
   return {
     LOCALES,
+    VIEW_SLUGS,
     t,
     setLang,
     getLang: () => lang,
     init,
     applyDom,
+    parseRoute,
+    pathForView,
+    pathForLang,
+    pathLocale,
   };
 })();
 window.I18N = I18N;

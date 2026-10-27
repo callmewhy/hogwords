@@ -105,6 +105,16 @@ body {
   gap: 0.35rem;
 }
 
+a.nav-btn {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.brand {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-btn {
   font-family: var(--font-ui);
   font-size: 0.78rem;
@@ -759,7 +769,19 @@ main {
   background: rgba(36, 18, 24, 0.75);
 }
 
-.lang-icon { font-size: 0.95rem; line-height: 1; }
+.lang-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-soft);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.lang-icon .lang-globe {
+  display: block;
+  opacity: 0.9;
+}
 
 .lang-switch select {
   font-family: var(--font-ui);
@@ -770,7 +792,12 @@ main {
   outline: none;
   cursor: pointer;
   max-width: 9.5rem;
-  padding: 0.25rem 0.15rem;
+  padding: 0.25rem 1.1rem 0.25rem 0.15rem;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23c9a227' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.15rem center;
 }
 
 .lang-switch select option {
