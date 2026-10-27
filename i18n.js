@@ -1080,6 +1080,7 @@ const I18N = (() => {
       "</svg>";
     const select = document.createElement("select");
     select.id = "lang-select";
+    select.className = "lang-select";
     select.setAttribute("aria-label", t("lang.aria"));
     LOCALES.forEach((L) => {
       const opt = document.createElement("option");
