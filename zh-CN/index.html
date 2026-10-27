@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hogwords 霍格沃茨英语词汇 — 免费哈利·波特单词学习</title>
+  <meta name="description" content="用七本哈利·波特原著精选词汇学英语。免费闪卡、测验、浏览与下载——Hogwords 霍格沃茨风格词汇站。" />
+  <link rel="canonical" href="https://hogwords.pages.dev/zh-CN/" />
+  <link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
+  <link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/" />
+  <link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/" />
+  <link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/" />
+  <link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/" />
+  <link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/" />
+  <link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/" />
+  <link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/" />
+  <link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/" />
+  <link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#6b1d2a" />
+  <meta name="author" content="Hogwords" />
+  <meta name="keywords" content="Hogwords, Harry Potter vocabulary, Hogwarts English, English flashcards, learn English, free vocabulary, ESL, word list" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hogwords.pages.dev/zh-CN/" />
+  <meta property="og:site_name" content="Hogwords" />
+  <meta property="og:title" content="Hogwords 霍格沃茨英语词汇 — 免费哈利·波特单词学习" />
+  <meta property="og:description" content="用七本哈利·波特原著精选词汇学英语。免费闪卡、测验、浏览与下载——Hogwords 霍格沃茨风格词汇站。" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Hogwords 霍格沃茨英语词汇 — 免费哈利·波特单词学习" />
+  <meta name="twitter:description" content="用七本哈利·波特原著精选词汇学英语。免费闪卡、测验、浏览与下载——Hogwords 霍格沃茨风格词汇站。" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Hogwords",
+        "alternateName": "Hogwords Vocabulary",
+        "url": "https://hogwords.pages.dev/zh-CN/",
+        "description": "Free public Harry Potter / Hogwarts-inspired English vocabulary learning site with flashcards, quizzes, and downloads.",
+        "inLanguage": ["en", "zh-CN", "zh-TW", "ja", "ko", "es", "fr", "de", "pt", "ru"]
+      },
+      {
+        "@type": "LearningResource",
+        "name": "Hogwords English Vocabulary",
+        "description": "Curated English vocabulary from all seven Harry Potter books. Browse, practice with flashcards, take quizzes, and download word lists.",
+        "url": "https://hogwords.pages.dev/zh-CN/",
+        "learningResourceType": ["flashcard", "quiz", "word list"],
+        "educationalLevel": "beginner to intermediate",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "teaches": "English vocabulary"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <div>
+        <div class="brand-title">Hogwords</div>
+        <div class="brand-sub" data-i18n="brand.sub">霍格沃茨风格英语词汇</div>
+      </div>
+    </div>
+    <nav class="nav" data-i18n-aria="nav.aria" aria-label="主导航">
+      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">首页</button>
+      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">词库</button>
+      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">闪卡</button>
+      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">测验</button>
+      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">下载</button>
+    </nav>
+    <div id="lang-switcher" class="lang-switcher"></div>
+  </header>
+
+  <main id="app">
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <p class="eyebrow" data-i18n="home.eyebrow">免费公开英语词汇学习</p>
+        <h1><span data-i18n="home.h1a">用哈利·波特学英语</span><br /><span class="gold" data-i18n="home.h1b">Hogwords</span></h1>
+        <p class="lead" data-i18n="home.lead">
+          七本原著精选词汇。浏览、闪卡练习、测验与一键下载——免费开放，可离线使用。
+        </p>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat-card"><div class="stat-num" id="stat-books">7</div><div class="stat-label" data-i18n="home.statBooks">书册</div></div>
+          <div class="stat-card"><div class="stat-num" id="stat-total">22,637</div><div class="stat-label" data-i18n="home.statTotal">词条合计</div></div>
+          <div class="stat-card"><div class="stat-num" id="stat-unique">6,069</div><div class="stat-label" data-i18n="home.statUnique">去重词汇</div></div>
+        </div>
+      </div>
+      <h2 class="section-title" data-i18n="home.chooseBook">选择书册</h2>
+      <div class="book-grid" id="book-grid"></div>
+    </section>
+
+    <section id="view-browse" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="browse.title">词库浏览</h2>
+        <p class="muted" data-i18n="browse.sub">搜索、按书筛选、字母跳转、分页列表</p>
+      </div>
+      <div class="toolbar">
+        <label class="field grow">
+          <span data-i18n="browse.search">搜索</span>
+          <input type="search" id="search-input" data-i18n-placeholder="browse.searchPh" placeholder="输入单词…" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span data-i18n="browse.book">书册</span>
+          <select id="filter-book">
+            <option value="all">All books</option>
+          </select>
+        </label>
+      </div>
+      <div class="az-bar" id="az-bar" aria-label="A to Z jump"></div>
+      <div class="list-meta">
+        <span id="list-count">0 words</span>
+        <div class="pager">
+          <button type="button" id="page-prev" class="btn ghost" data-i18n="browse.prev">← 上一页</button>
+          <span id="page-info">1 / 1</span>
+          <button type="button" id="page-next" class="btn ghost" data-i18n="browse.next">下一页 →</button>
+        </div>
+      </div>
+      <div class="word-table-wrap">
+        <table class="word-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th data-i18n="browse.thWord">单词</th>
+              <th data-i18n="browse.thBook">书册</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="word-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="view-flash" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="flash.title">闪卡练习</h2>
+        <p class="muted" data-i18n="flash.sub">先看英文，再揭晓；标记认识 / 不认识 · 可选朗读</p>
+      </div>
+      <div class="toolbar">
+        <label class="field">
+          <span data-i18n="flash.book">书册</span>
+          <select id="flash-book"></select>
+        </label>
+        <label class="field check" for="flash-tts">
+          <input type="checkbox" id="flash-tts" checked />
+          <span class="check-ui" aria-hidden="true"></span>
+          <span class="check-label" data-i18n="flash.tts">朗读（英语 TTS）</span>
+        </label>
+        <button type="button" class="btn" id="flash-shuffle" data-i18n="flash.shuffle">打乱</button>
+      </div>
+      <div class="flash-stats">
+        <span><span data-i18n="flash.progress">进度：</span> <strong id="flash-progress">0 / 0</strong></span>
+        <span class="know"><span data-i18n="flash.know">认识：</span> <strong id="flash-know">0</strong></span>
+        <span class="dont"><span data-i18n="flash.dont">学习中：</span> <strong id="flash-dont">0</strong></span>
+      </div>
+      <div class="flash-stage">
+        <div class="flash-card" id="flash-card" tabindex="0" role="button" aria-label="Reveal card">
+          <div class="flash-face front">
+            <div class="flash-hint" data-i18n="flash.hint">点击揭晓</div>
+            <div class="flash-word" id="flash-word">—</div>
+            <div class="flash-book-tag" id="flash-book-tag"></div>
+          </div>
+          <div class="flash-face back hidden">
+            <div class="flash-hint" data-i18n="flash.revealed">已揭晓</div>
+            <div class="flash-word gold" id="flash-word-back">—</div>
+            <div class="flash-note" data-i18n="flash.note">把这个词记在心里</div>
+          </div>
+        </div>
+        <div class="flash-actions">
+          <button type="button" class="btn ghost" id="flash-speak" data-i18n="flash.speak">🔊 朗读</button>
+          <button type="button" class="btn danger" id="flash-dont-btn" data-i18n="flash.dontBtn">✗ 不认识</button>
+          <button type="button" class="btn success" id="flash-know-btn" data-i18n="flash.knowBtn">✓ 认识</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-quiz" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="quiz.title">测验</h2>
+        <p class="muted" data-i18n="quiz.sub">选择题或拼写题</p>
+      </div>
+      <div class="toolbar">
+        <label class="field">
+          <span data-i18n="quiz.book">书册</span>
+          <select id="quiz-book"></select>
+        </label>
+        <label class="field">
+          <span data-i18n="quiz.mode">模式</span>
+          <select id="quiz-mode">
+            <option value="mc" data-i18n="quiz.modeMc">选择题</option>
+            <option value="type" data-i18n="quiz.modeType">拼写</option>
+          </select>
+        </label>
+        <label class="field">
+          <span data-i18n="quiz.count">题数</span>
+          <select id="quiz-count">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+        <button type="button" class="btn primary" id="quiz-start" data-i18n="quiz.start">开始</button>
+      </div>
+      <div id="quiz-panel" class="quiz-panel hidden">
+        <div class="quiz-progress">
+          <div class="bar"><div id="quiz-bar" class="fill"></div></div>
+          <span id="quiz-qnum">1 / 20</span>
+          <span><span data-i18n="quiz.score">得分：</span> <strong id="quiz-score">0</strong></span>
+        </div>
+        <div class="quiz-prompt">
+          <p class="muted" id="quiz-prompt-label">Pick the correct spelling</p>
+          <div class="quiz-target" id="quiz-target">?</div>
+        </div>
+        <div id="quiz-choices" class="quiz-choices"></div>
+        <div id="quiz-type-wrap" class="quiz-type-wrap hidden">
+          <input type="text" id="quiz-input" data-i18n-placeholder="quiz.typePh" placeholder="输入英文单词…" autocomplete="off" spellcheck="false" />
+          <button type="button" class="btn primary" id="quiz-submit" data-i18n="quiz.submit">提交</button>
+        </div>
+        <p id="quiz-feedback" class="quiz-feedback"></p>
+      </div>
+      <div id="quiz-result" class="quiz-result hidden">
+        <h3 data-i18n="quiz.complete">测验结束</h3>
+        <p class="result-score"><span id="quiz-final-score">0</span> / <span id="quiz-final-total">0</span></p>
+        <p class="muted" id="quiz-final-pct"></p>
+        <button type="button" class="btn primary" id="quiz-restart" data-i18n="quiz.again">再来一次</button>
+      </div>
+    </section>
+
+    <section id="view-download" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="dl.title">下载词汇</h2>
+        <p class="muted" data-i18n="dl.sub">导出当前书或全部 · .txt / .csv / zip</p>
+      </div>
+      <div class="download-grid">
+        <div class="dl-card">
+          <h3 data-i18n="dl.single">单本书</h3>
+          <label class="field">
+            <span data-i18n="dl.selectBook">选择书册</span>
+            <select id="dl-book"></select>
+          </label>
+          <div class="dl-actions">
+            <button type="button" class="btn" id="dl-book-txt" data-i18n="dl.txt">下载 .txt</button>
+            <button type="button" class="btn" id="dl-book-csv" data-i18n="dl.csv">下载 .csv</button>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3 data-i18n="dl.all">全部书籍</h3>
+          <p class="muted" data-i18n="dl.allHint">合并导出，或打包全部 txt</p>
+          <div class="dl-actions">
+            <button type="button" class="btn" id="dl-all-txt" data-i18n="dl.allTxt">全部 .txt</button>
+            <button type="button" class="btn" id="dl-all-csv" data-i18n="dl.allCsv">全部 .csv</button>
+            <a class="btn primary" id="dl-zip" href="/data/all-books-txt.zip" download="harry-potter-vocab-all-txt.zip" data-i18n="dl.zip">全部 .zip</a>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3 data-i18n="dl.prefab">预生成文件</h3>
+          <p class="muted" data-i18n="dl.prefabHint">服务器上的静态资源</p>
+          <div class="dl-actions">
+            <a class="btn ghost" href="/data/words.json" download>words.json</a>
+            <a class="btn ghost" href="/data/all-books.csv" download>all-books.csv</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.about">Hogwords 是面向公众的免费英语词汇学习站，灵感来自霍格沃茨世界。原创界面风格，与官方商标无关。</p>
+    <p class="footer-note" data-i18n="footer.langNote">界面支持多语言；词汇内容为英语。</p>
+  </footer>
+
+  <script src="/i18n.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hogwords — Free Harry Potter English Vocabulary</title>
+  <meta name="description" content="Learn English with Hogwarts-inspired vocabulary from all seven Harry Potter books. Free flashcards, quizzes, browse &amp; download — Hogwords." />
+  <link rel="canonical" href="https://hogwords.pages.dev/" />
+  <link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
+  <link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/" />
+  <link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/" />
+  <link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/" />
+  <link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/" />
+  <link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/" />
+  <link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/" />
+  <link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/" />
+  <link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/" />
+  <link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#6b1d2a" />
+  <meta name="author" content="Hogwords" />
+  <meta name="keywords" content="Hogwords, Harry Potter vocabulary, Hogwarts English, English flashcards, learn English, free vocabulary, ESL, word list" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hogwords.pages.dev/" />
+  <meta property="og:site_name" content="Hogwords" />
+  <meta property="og:title" content="Hogwords — Free Harry Potter English Vocabulary" />
+  <meta property="og:description" content="Learn English with Hogwarts-inspired vocabulary from all seven Harry Potter books. Free flashcards, quizzes, browse &amp; download — Hogwords." />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Hogwords — Free Harry Potter English Vocabulary" />
+  <meta name="twitter:description" content="Learn English with Hogwarts-inspired vocabulary from all seven Harry Potter books. Free flashcards, quizzes, browse &amp; download — Hogwords." />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Hogwords",
+        "alternateName": "Hogwords Vocabulary",
+        "url": "https://hogwords.pages.dev/",
+        "description": "Free public Harry Potter / Hogwarts-inspired English vocabulary learning site with flashcards, quizzes, and downloads.",
+        "inLanguage": ["en", "zh-CN", "zh-TW", "ja", "ko", "es", "fr", "de", "pt", "ru"]
+      },
+      {
+        "@type": "LearningResource",
+        "name": "Hogwords English Vocabulary",
+        "description": "Curated English vocabulary from all seven Harry Potter books. Browse, practice with flashcards, take quizzes, and download word lists.",
+        "url": "https://hogwords.pages.dev/",
+        "learningResourceType": ["flashcard", "quiz", "word list"],
+        "educationalLevel": "beginner to intermediate",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "teaches": "English vocabulary"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <div>
+        <div class="brand-title">Hogwords</div>
+        <div class="brand-sub" data-i18n="brand.sub">Hogwarts-inspired English vocabulary</div>
+      </div>
+    </div>
+    <nav class="nav" data-i18n-aria="nav.aria" aria-label="Main">
+      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">Home</button>
+      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">Browse</button>
+      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">Flashcards</button>
+      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">Quiz</button>
+      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">Download</button>
+    </nav>
+    <div id="lang-switcher" class="lang-switcher"></div>
+  </header>
+
+  <main id="app">
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <p class="eyebrow" data-i18n="home.eyebrow">Free public English vocabulary</p>
+        <h1><span data-i18n="home.h1a">Learn English with</span><br /><span class="gold" data-i18n="home.h1b">Hogwords</span></h1>
+        <p class="lead" data-i18n="home.lead">
+          Curated vocabulary from all seven Harry Potter books. Browse, practice with flashcards, take quizzes, and download word lists — free for everyone, works offline.
+        </p>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat-card"><div class="stat-num" id="stat-books">7</div><div class="stat-label" data-i18n="home.statBooks">Books</div></div>
+          <div class="stat-card"><div class="stat-num" id="stat-total">22,637</div><div class="stat-label" data-i18n="home.statTotal">Total entries</div></div>
+          <div class="stat-card"><div class="stat-num" id="stat-unique">6,069</div><div class="stat-label" data-i18n="home.statUnique">Unique words</div></div>
+        </div>
+      </div>
+      <h2 class="section-title" data-i18n="home.chooseBook">Choose a Book</h2>
+      <div class="book-grid" id="book-grid"></div>
+    </section>
+
+    <section id="view-browse" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="browse.title">Word Browser</h2>
+        <p class="muted" data-i18n="browse.sub">Search, filter by book, jump A–Z, paginated list</p>
+      </div>
+      <div class="toolbar">
+        <label class="field grow">
+          <span data-i18n="browse.search">Search</span>
+          <input type="search" id="search-input" data-i18n-placeholder="browse.searchPh" placeholder="Type a word…" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span data-i18n="browse.book">Book</span>
+          <select id="filter-book">
+            <option value="all">All books</option>
+          </select>
+        </label>
+      </div>
+      <div class="az-bar" id="az-bar" aria-label="A to Z jump"></div>
+      <div class="list-meta">
+        <span id="list-count">0 words</span>
+        <div class="pager">
+          <button type="button" id="page-prev" class="btn ghost" data-i18n="browse.prev">← Prev</button>
+          <span id="page-info">1 / 1</span>
+          <button type="button" id="page-next" class="btn ghost" data-i18n="browse.next">Next →</button>
+        </div>
+      </div>
+      <div class="word-table-wrap">
+        <table class="word-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th data-i18n="browse.thWord">Word</th>
+              <th data-i18n="browse.thBook">Book</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="word-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="view-flash" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="flash.title">Flashcards</h2>
+        <p class="muted" data-i18n="flash.sub">See the English word, reveal, mark know / learning · optional TTS</p>
+      </div>
+      <div class="toolbar">
+        <label class="field">
+          <span data-i18n="flash.book">Book</span>
+          <select id="flash-book"></select>
+        </label>
+        <label class="field check" for="flash-tts">
+          <input type="checkbox" id="flash-tts" checked />
+          <span class="check-ui" aria-hidden="true"></span>
+          <span class="check-label" data-i18n="flash.tts">Speak (English TTS)</span>
+        </label>
+        <button type="button" class="btn" id="flash-shuffle" data-i18n="flash.shuffle">Shuffle</button>
+      </div>
+      <div class="flash-stats">
+        <span><span data-i18n="flash.progress">Progress:</span> <strong id="flash-progress">0 / 0</strong></span>
+        <span class="know"><span data-i18n="flash.know">Know:</span> <strong id="flash-know">0</strong></span>
+        <span class="dont"><span data-i18n="flash.dont">Learning:</span> <strong id="flash-dont">0</strong></span>
+      </div>
+      <div class="flash-stage">
+        <div class="flash-card" id="flash-card" tabindex="0" role="button" aria-label="Reveal card">
+          <div class="flash-face front">
+            <div class="flash-hint" data-i18n="flash.hint">Click to reveal</div>
+            <div class="flash-word" id="flash-word">—</div>
+            <div class="flash-book-tag" id="flash-book-tag"></div>
+          </div>
+          <div class="flash-face back hidden">
+            <div class="flash-hint" data-i18n="flash.revealed">Revealed</div>
+            <div class="flash-word gold" id="flash-word-back">—</div>
+            <div class="flash-note" data-i18n="flash.note">Keep this word in mind</div>
+          </div>
+        </div>
+        <div class="flash-actions">
+          <button type="button" class="btn ghost" id="flash-speak" data-i18n="flash.speak">🔊 Speak</button>
+          <button type="button" class="btn danger" id="flash-dont-btn" data-i18n="flash.dontBtn">✗ Don't know</button>
+          <button type="button" class="btn success" id="flash-know-btn" data-i18n="flash.knowBtn">✓ Know</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-quiz" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="quiz.title">Quiz</h2>
+        <p class="muted" data-i18n="quiz.sub">Multiple choice or type the word</p>
+      </div>
+      <div class="toolbar">
+        <label class="field">
+          <span data-i18n="quiz.book">Book</span>
+          <select id="quiz-book"></select>
+        </label>
+        <label class="field">
+          <span data-i18n="quiz.mode">Mode</span>
+          <select id="quiz-mode">
+            <option value="mc" data-i18n="quiz.modeMc">Multiple choice</option>
+            <option value="type" data-i18n="quiz.modeType">Type the word</option>
+          </select>
+        </label>
+        <label class="field">
+          <span data-i18n="quiz.count">Questions</span>
+          <select id="quiz-count">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+        <button type="button" class="btn primary" id="quiz-start" data-i18n="quiz.start">Start</button>
+      </div>
+      <div id="quiz-panel" class="quiz-panel hidden">
+        <div class="quiz-progress">
+          <div class="bar"><div id="quiz-bar" class="fill"></div></div>
+          <span id="quiz-qnum">1 / 20</span>
+          <span><span data-i18n="quiz.score">Score:</span> <strong id="quiz-score">0</strong></span>
+        </div>
+        <div class="quiz-prompt">
+          <p class="muted" id="quiz-prompt-label">Pick the correct spelling</p>
+          <div class="quiz-target" id="quiz-target">?</div>
+        </div>
+        <div id="quiz-choices" class="quiz-choices"></div>
+        <div id="quiz-type-wrap" class="quiz-type-wrap hidden">
+          <input type="text" id="quiz-input" data-i18n-placeholder="quiz.typePh" placeholder="Type the English word…" autocomplete="off" spellcheck="false" />
+          <button type="button" class="btn primary" id="quiz-submit" data-i18n="quiz.submit">Submit</button>
+        </div>
+        <p id="quiz-feedback" class="quiz-feedback"></p>
+      </div>
+      <div id="quiz-result" class="quiz-result hidden">
+        <h3 data-i18n="quiz.complete">Quiz Complete</h3>
+        <p class="result-score"><span id="quiz-final-score">0</span> / <span id="quiz-final-total">0</span></p>
+        <p class="muted" id="quiz-final-pct"></p>
+        <button type="button" class="btn primary" id="quiz-restart" data-i18n="quiz.again">Try again</button>
+      </div>
+    </section>
+
+    <section id="view-download" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="dl.title">Download</h2>
+        <p class="muted" data-i18n="dl.sub">Export one book or all · .txt / .csv / zip</p>
+      </div>
+      <div class="download-grid">
+        <div class="dl-card">
+          <h3 data-i18n="dl.single">Single book</h3>
+          <label class="field">
+            <span data-i18n="dl.selectBook">Select book</span>
+            <select id="dl-book"></select>
+          </label>
+          <div class="dl-actions">
+            <button type="button" class="btn" id="dl-book-txt" data-i18n="dl.txt">Download .txt</button>
+            <button type="button" class="btn" id="dl-book-csv" data-i18n="dl.csv">Download .csv</button>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3 data-i18n="dl.all">All books</h3>
+          <p class="muted" data-i18n="dl.allHint">Combined export, or zip of every txt</p>
+          <div class="dl-actions">
+            <button type="button" class="btn" id="dl-all-txt" data-i18n="dl.allTxt">All .txt</button>
+            <button type="button" class="btn" id="dl-all-csv" data-i18n="dl.allCsv">All .csv</button>
+            <a class="btn primary" id="dl-zip" href="/data/all-books-txt.zip" download="harry-potter-vocab-all-txt.zip" data-i18n="dl.zip">All .zip</a>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3 data-i18n="dl.prefab">Static files</h3>
+          <p class="muted" data-i18n="dl.prefabHint">Pre-generated assets on the server</p>
+          <div class="dl-actions">
+            <a class="btn ghost" href="/data/words.json" download>words.json</a>
+            <a class="btn ghost" href="/data/all-books.csv" download>all-books.csv</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.about">Hogwords is a free public English vocabulary site inspired by the Hogwarts world. Original styling only — no official trademarks.</p>
+    <p class="footer-note" data-i18n="footer.langNote">UI available in multiple languages; vocabulary content is English.</p>
+  </footer>
+
+  <script src="/i18n.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

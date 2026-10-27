@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hogwords 霍格華茲英語詞彙 — 免費哈利波特單字學習</title>
+  <meta name="description" content="用七本哈利波特原著精選詞彙學英語。免費閃卡、測驗、瀏覽與下載——Hogwords。" />
+  <link rel="canonical" href="https://hogwords.pages.dev/zh-TW/" />
+  <link rel="alternate" hreflang="en" href="https://hogwords.pages.dev/en/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://hogwords.pages.dev/zh-CN/" />
+  <link rel="alternate" hreflang="zh-TW" href="https://hogwords.pages.dev/zh-TW/" />
+  <link rel="alternate" hreflang="ja" href="https://hogwords.pages.dev/ja/" />
+  <link rel="alternate" hreflang="ko" href="https://hogwords.pages.dev/ko/" />
+  <link rel="alternate" hreflang="es" href="https://hogwords.pages.dev/es/" />
+  <link rel="alternate" hreflang="fr" href="https://hogwords.pages.dev/fr/" />
+  <link rel="alternate" hreflang="de" href="https://hogwords.pages.dev/de/" />
+  <link rel="alternate" hreflang="pt" href="https://hogwords.pages.dev/pt/" />
+  <link rel="alternate" hreflang="ru" href="https://hogwords.pages.dev/ru/" />
+  <link rel="alternate" hreflang="x-default" href="https://hogwords.pages.dev/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#6b1d2a" />
+  <meta name="author" content="Hogwords" />
+  <meta name="keywords" content="Hogwords, Harry Potter vocabulary, Hogwarts English, English flashcards, learn English, free vocabulary, ESL, word list" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hogwords.pages.dev/zh-TW/" />
+  <meta property="og:site_name" content="Hogwords" />
+  <meta property="og:title" content="Hogwords 霍格華茲英語詞彙 — 免費哈利波特單字學習" />
+  <meta property="og:description" content="用七本哈利波特原著精選詞彙學英語。免費閃卡、測驗、瀏覽與下載——Hogwords。" />
+  <meta property="og:locale" content="zh_TW" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Hogwords 霍格華茲英語詞彙 — 免費哈利波特單字學習" />
+  <meta name="twitter:description" content="用七本哈利波特原著精選詞彙學英語。免費閃卡、測驗、瀏覽與下載——Hogwords。" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Hogwords",
+        "alternateName": "Hogwords Vocabulary",
+        "url": "https://hogwords.pages.dev/zh-TW/",
+        "description": "Free public Harry Potter / Hogwarts-inspired English vocabulary learning site with flashcards, quizzes, and downloads.",
+        "inLanguage": ["en", "zh-CN", "zh-TW", "ja", "ko", "es", "fr", "de", "pt", "ru"]
+      },
+      {
+        "@type": "LearningResource",
+        "name": "Hogwords English Vocabulary",
+        "description": "Curated English vocabulary from all seven Harry Potter books. Browse, practice with flashcards, take quizzes, and download word lists.",
+        "url": "https://hogwords.pages.dev/zh-TW/",
+        "learningResourceType": ["flashcard", "quiz", "word list"],
+        "educationalLevel": "beginner to intermediate",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "teaches": "English vocabulary"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="brand" onclick="App.showView('home')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.showView('home')}">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <div>
+        <div class="brand-title">Hogwords</div>
+        <div class="brand-sub" data-i18n="brand.sub">霍格華茲風格英語詞彙</div>
+      </div>
+    </div>
+    <nav class="nav" data-i18n-aria="nav.aria" aria-label="主導覽">
+      <button type="button" class="nav-btn active" data-view="home" data-i18n="nav.home">首頁</button>
+      <button type="button" class="nav-btn" data-view="browse" data-i18n="nav.browse">詞庫</button>
+      <button type="button" class="nav-btn" data-view="flash" data-i18n="nav.flash">閃卡</button>
+      <button type="button" class="nav-btn" data-view="quiz" data-i18n="nav.quiz">測驗</button>
+      <button type="button" class="nav-btn" data-view="download" data-i18n="nav.download">下載</button>
+    </nav>
+    <div id="lang-switcher" class="lang-switcher"></div>
+  </header>
+
+  <main id="app">
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <p class="eyebrow" data-i18n="home.eyebrow">免費公開英語詞彙學習</p>
+        <h1><span data-i18n="home.h1a">用哈利波特學英語</span><br /><span class="gold" data-i18n="home.h1b">Hogwords</span></h1>
+        <p class="lead" data-i18n="home.lead">
+          七本原著精選詞彙。瀏覽、閃卡練習、測驗與一鍵下載——免費開放，可離線使用。
+        </p>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat-card"><div class="stat-num" id="stat-books">7</div><div class="stat-label" data-i18n="home.statBooks">書冊</div></div>
+          <div class="stat-card"><div class="stat-num" id="stat-total">22,637</div><div class="stat-label" data-i18n="home.statTotal">詞條合計</div></div>
+          <div class="stat-card"><div class="stat-num" id="stat-unique">6,069</div><div class="stat-label" data-i18n="home.statUnique">去重詞彙</div></div>
+        </div>
+      </div>
+      <h2 class="section-title" data-i18n="home.chooseBook">選擇書冊</h2>
+      <div class="book-grid" id="book-grid"></div>
+    </section>
+
+    <section id="view-browse" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="browse.title">詞庫瀏覽</h2>
+        <p class="muted" data-i18n="browse.sub">搜尋、依書篩選、字母跳轉、分頁列表</p>
+      </div>
+      <div class="toolbar">
+        <label class="field grow">
+          <span data-i18n="browse.search">搜尋</span>
+          <input type="search" id="search-input" data-i18n-placeholder="browse.searchPh" placeholder="輸入單字…" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span data-i18n="browse.book">書冊</span>
+          <select id="filter-book">
+            <option value="all">All books</option>
+          </select>
+        </label>
+      </div>
+      <div class="az-bar" id="az-bar" aria-label="A to Z jump"></div>
+      <div class="list-meta">
+        <span id="list-count">0 words</span>
+        <div class="pager">
+          <button type="button" id="page-prev" class="btn ghost" data-i18n="browse.prev">← 上一頁</button>
+          <span id="page-info">1 / 1</span>
+          <button type="button" id="page-next" class="btn ghost" data-i18n="browse.next">下一頁 →</button>
+        </div>
+      </div>
+      <div class="word-table-wrap">
+        <table class="word-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th data-i18n="browse.thWord">單字</th>
+              <th data-i18n="browse.thBook">書冊</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="word-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="view-flash" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="flash.title">閃卡練習</h2>
+        <p class="muted" data-i18n="flash.sub">先看英文，再揭曉；標記認識 / 不認識 · 可選朗讀</p>
+      </div>
+      <div class="toolbar">
+        <label class="field">
+          <span data-i18n="flash.book">書冊</span>
+          <select id="flash-book"></select>
+        </label>
+        <label class="field check" for="flash-tts">
+          <input type="checkbox" id="flash-tts" checked />
+          <span class="check-ui" aria-hidden="true"></span>
+          <span class="check-label" data-i18n="flash.tts">朗讀（英語 TTS）</span>
+        </label>
+        <button type="button" class="btn" id="flash-shuffle" data-i18n="flash.shuffle">打亂</button>
+      </div>
+      <div class="flash-stats">
+        <span><span data-i18n="flash.progress">進度：</span> <strong id="flash-progress">0 / 0</strong></span>
+        <span class="know"><span data-i18n="flash.know">認識：</span> <strong id="flash-know">0</strong></span>
+        <span class="dont"><span data-i18n="flash.dont">學習中：</span> <strong id="flash-dont">0</strong></span>
+      </div>
+      <div class="flash-stage">
+        <div class="flash-card" id="flash-card" tabindex="0" role="button" aria-label="Reveal card">
+          <div class="flash-face front">
+            <div class="flash-hint" data-i18n="flash.hint">點擊揭曉</div>
+            <div class="flash-word" id="flash-word">—</div>
+            <div class="flash-book-tag" id="flash-book-tag"></div>
+          </div>
+          <div class="flash-face back hidden">
+            <div class="flash-hint" data-i18n="flash.revealed">已揭曉</div>
+            <div class="flash-word gold" id="flash-word-back">—</div>
+            <div class="flash-note" data-i18n="flash.note">把這個詞記在心裡</div>
+          </div>
+        </div>
+        <div class="flash-actions">
+          <button type="button" class="btn ghost" id="flash-speak" data-i18n="flash.speak">🔊 朗讀</button>
+          <button type="button" class="btn danger" id="flash-dont-btn" data-i18n="flash.dontBtn">✗ 不認識</button>
+          <button type="button" class="btn success" id="flash-know-btn" data-i18n="flash.knowBtn">✓ 認識</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-quiz" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="quiz.title">測驗</h2>
+        <p class="muted" data-i18n="quiz.sub">選擇題或拼寫題</p>
+      </div>
+      <div class="toolbar">
+        <label class="field">
+          <span data-i18n="quiz.book">書冊</span>
+          <select id="quiz-book"></select>
+        </label>
+        <label class="field">
+          <span data-i18n="quiz.mode">模式</span>
+          <select id="quiz-mode">
+            <option value="mc" data-i18n="quiz.modeMc">選擇題</option>
+            <option value="type" data-i18n="quiz.modeType">拼寫</option>
+          </select>
+        </label>
+        <label class="field">
+          <span data-i18n="quiz.count">題數</span>
+          <select id="quiz-count">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+        <button type="button" class="btn primary" id="quiz-start" data-i18n="quiz.start">開始</button>
+      </div>
+      <div id="quiz-panel" class="quiz-panel hidden">
+        <div class="quiz-progress">
+          <div class="bar"><div id="quiz-bar" class="fill"></div></div>
+          <span id="quiz-qnum">1 / 20</span>
+          <span><span data-i18n="quiz.score">得分：</span> <strong id="quiz-score">0</strong></span>
+        </div>
+        <div class="quiz-prompt">
+          <p class="muted" id="quiz-prompt-label">Pick the correct spelling</p>
+          <div class="quiz-target" id="quiz-target">?</div>
+        </div>
+        <div id="quiz-choices" class="quiz-choices"></div>
+        <div id="quiz-type-wrap" class="quiz-type-wrap hidden">
+          <input type="text" id="quiz-input" data-i18n-placeholder="quiz.typePh" placeholder="輸入英文單字…" autocomplete="off" spellcheck="false" />
+          <button type="button" class="btn primary" id="quiz-submit" data-i18n="quiz.submit">提交</button>
+        </div>
+        <p id="quiz-feedback" class="quiz-feedback"></p>
+      </div>
+      <div id="quiz-result" class="quiz-result hidden">
+        <h3 data-i18n="quiz.complete">測驗結束</h3>
+        <p class="result-score"><span id="quiz-final-score">0</span> / <span id="quiz-final-total">0</span></p>
+        <p class="muted" id="quiz-final-pct"></p>
+        <button type="button" class="btn primary" id="quiz-restart" data-i18n="quiz.again">再來一次</button>
+      </div>
+    </section>
+
+    <section id="view-download" class="view">
+      <div class="panel-head">
+        <h2 data-i18n="dl.title">下載詞彙</h2>
+        <p class="muted" data-i18n="dl.sub">匯出目前書或全部 · .txt / .csv / zip</p>
+      </div>
+      <div class="download-grid">
+        <div class="dl-card">
+          <h3 data-i18n="dl.single">單本書</h3>
+          <label class="field">
+            <span data-i18n="dl.selectBook">選擇書冊</span>
+            <select id="dl-book"></select>
+          </label>
+          <div class="dl-actions">
+            <button type="button" class="btn" id="dl-book-txt" data-i18n="dl.txt">下載 .txt</button>
+            <button type="button" class="btn" id="dl-book-csv" data-i18n="dl.csv">下載 .csv</button>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3 data-i18n="dl.all">全部書籍</h3>
+          <p class="muted" data-i18n="dl.allHint">合併匯出，或打包全部 txt</p>
+          <div class="dl-actions">
+            <button type="button" class="btn" id="dl-all-txt" data-i18n="dl.allTxt">全部 .txt</button>
+            <button type="button" class="btn" id="dl-all-csv" data-i18n="dl.allCsv">全部 .csv</button>
+            <a class="btn primary" id="dl-zip" href="/data/all-books-txt.zip" download="harry-potter-vocab-all-txt.zip" data-i18n="dl.zip">全部 .zip</a>
+          </div>
+        </div>
+        <div class="dl-card">
+          <h3 data-i18n="dl.prefab">預產生檔案</h3>
+          <p class="muted" data-i18n="dl.prefabHint">伺服器上的靜態資源</p>
+          <div class="dl-actions">
+            <a class="btn ghost" href="/data/words.json" download>words.json</a>
+            <a class="btn ghost" href="/data/all-books.csv" download>all-books.csv</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.about">Hogwords 是面向公眾的免費英語詞彙學習站，靈感來自霍格華茲世界。原創介面風格，與官方商標無關。</p>
+    <p class="footer-note" data-i18n="footer.langNote">介面支援多語言；詞彙內容為英語。</p>
+  </footer>
+
+  <script src="/i18n.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
